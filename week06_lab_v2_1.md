@@ -186,9 +186,8 @@ void main() {
 
 > ✅ **Checkpoint 2.1** รันไฟล์ทดสอบข้างต้น สังเกตค่าทั้ง 4 ฟิลด์ที่ `print()` ออกมาใน Debug Console ว่าตรงกับ Response Body จริงจาก Postman หรือไม่ ถ่ายภาพหน้าจอ Debug Console ที่แสดงว่าค่าทั้ง 4 ฟิลด์ถูกต้องตรงกับ JSON จริง
 
-```text
-บันทึกรูปที่นี่
-```
+<img width="1153" height="202" alt="image" src="https://github.com/user-attachments/assets/a5ed7905-38eb-4fb7-a416-ab9c25aa83b9" />
+
 ### ขั้นตอนที่ 2.3 — 🧠 คิดเอง/ออกแบบเอง
 
 สร้างไฟล์ `lib/services/weather_service.dart` แล้วเขียน `WeatherService` ต่อจากตัวอย่างโครงเริ่มต้นด้านล่างนี้  
@@ -235,10 +234,7 @@ class WeatherService {
 
 
 > ✅ **Checkpoint 2.2** บันทึกผลการตรวจสอบ `statusCode` อย่างน้อย 2 กรณี (สำเร็จ และ 404) ตามเกณฑ์ข้างต้น
-
-```text
-บันทึกรูปและคำตอบที่นี่
-```
+<img width="1915" height="1199" alt="Screenshot 2026-09-18 095844" src="https://github.com/user-attachments/assets/a2d4f2b7-e936-4f9c-9737-afff5528663a" />
 
 ### ขั้นตอนที่ 2.4 — 🧠 คิดเอง/ออกแบบเอง
 
@@ -354,11 +350,9 @@ class MyApp extends StatelessWidget {
 ```
 
 > ✅ **Checkpoint 2.3** รันแอปแล้วทดสอบทั้ง 3 สถานการณ์ คือ (1) ค้นหาเมืองที่มีจริง (2) ค้นหาเมืองที่ไม่มีอยู่จริง (3) ปิด Wi-Fi/Data บนเครื่องแล้วลองค้นหา ถ่ายภาพหน้าจอทั้ง 3 กรณี
-
-```text
-บันทึกรูปที่นี่
-```
-
+<img width="1292" height="986" alt="image" src="https://github.com/user-attachments/assets/4a9d9e08-6292-4f3b-8032-2ea74700e88c" />
+<img width="1295" height="981" alt="image" src="https://github.com/user-attachments/assets/ef01b19b-6546-4a44-9cc9-28f5144fd5b7" />
+<img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/b0facf91-51dc-4244-a039-147092deb86f" />
 ---
 
 ## ส่วนที่ 3: ทดลองเรียก HTTP Method อื่นนอกเหนือจาก GET
